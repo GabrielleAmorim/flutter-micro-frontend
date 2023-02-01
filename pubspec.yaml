@@ -1,0 +1,39 @@
+name: flutterbase
+description: A new Flutter project.
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  dio: ^4.0.6    
+  flutter:
+    sdk: flutter
+  flutter_dotenv: ^5.0.2
+  flutter_flavor: ^3.1.1
+  get: ^4.6.5
+  logger: ^1.1.0
+  responsive_framework: ^0.2.0
+
+  food:
+    path: packages/micro_apps/food
+
+dev_dependencies:
+  faker: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+  mocktail: ^0.3.0
+  test: ^1.17.12
+  test_api: ^0.4.9
+  very_good_analysis: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - .env

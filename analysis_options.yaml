@@ -1,0 +1,28 @@
+
+include: package:very_good_analysis/analysis_options.yaml
+analyzer:
+  exclude:
+    - build/
+  strong-mode:
+    implicit-casts: true
+    implicit-dynamic: true
+  errors:
+    missing_required_param: error
+    empty_statements: error
+    prefer_relative_imports: error
+    constant_identifier_names: error
+    avoid_print: warning
+    omit_local_variable_types: ignore
+    unnecessary_this: warning
+    always_use_package_imports: ignore
+    lines_longer_than_80_chars: ignore
+    cascade_invocations: ignore
+
+linter:
+  rules:
+    prefer_relative_imports: true
+    avoid_print: true
+    omit_local_variable_types: true
+    use_rethrow_when_possible: false
+    prefer_single_quotes: false
+    public_member_api_docs: false
