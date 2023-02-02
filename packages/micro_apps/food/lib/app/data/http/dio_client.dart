@@ -41,7 +41,6 @@ class DioClient implements RestClientAdapter {
     } on DioError catch (e) {
       throw _clientException(e);
     } catch (_) {
-      // TODO(Marcone): Tratar erro no caso de ser um erro diferente do DIO
       rethrow;
     }
   }
@@ -62,7 +61,6 @@ class DioClient implements RestClientAdapter {
     } on DioError catch (e) {
       throw _clientException(e);
     } catch (_) {
-      // TODO(Marcone): Tratar erro no caso de ser um erro diferente do DIO
       rethrow;
     }
   }
@@ -85,7 +83,6 @@ class DioClient implements RestClientAdapter {
     } on DioError catch (e) {
       throw _clientException(e);
     } catch (_) {
-      // TODO(Marcone): Tratar erro no caso de ser um erro diferente do DIO
       rethrow;
     }
   }
@@ -108,7 +105,6 @@ class DioClient implements RestClientAdapter {
     } on DioError catch (e) {
       throw _clientException(e);
     } catch (_) {
-      // TODO(Marcone): Tratar erro no caso de ser um erro diferente do DIO
       rethrow;
     }
   }
@@ -131,7 +127,6 @@ class DioClient implements RestClientAdapter {
     } on DioError catch (e) {
       throw _clientException(e);
     } catch (_) {
-      // TODO(Marcone): Tratar erro no caso de ser um erro diferente do DIO
       rethrow;
     }
   }

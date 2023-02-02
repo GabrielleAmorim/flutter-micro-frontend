@@ -22,6 +22,16 @@ dependencies:
   food:
     path: packages/micro_apps/food
 
+
+  # food:
+  #   git:
+  #     url: https://github.com/GabrielleAmorim/food-microapp.git
+
+  # login:
+  #   git:
+  #     url: https://github.com/GabrielleAmorim/login-microapp.git
+
+
 dev_dependencies:
   faker: ^2.0.0
   flutter_test:

@@ -14,8 +14,7 @@ class DioClient implements RestClientAdapter {
   late Dio _dio;
 
   /// Base Dio Url Client
-  static final String baseUrl =
-      FlavorConfig.instance.variables[AppConfig.apiUrlBase].toString();
+  static final String baseUrl = FlavorConfig.instance.variables[AppConfig.apiUrlBase].toString();
   static const String _contentType = "application/json; charset=utf-8";
   static const int _connectionTimeout = 10000;
   static const int _receiveTimeout = 5000;
@@ -57,7 +56,6 @@ class DioClient implements RestClientAdapter {
     } on DioError catch (e) {
       throw _clientException(e);
     } catch (_) {
-      // TODO(Marcone): Tratar erro no caso de ser um erro diferente do DIO
       rethrow;
     }
   }
@@ -78,7 +76,6 @@ class DioClient implements RestClientAdapter {
     } on DioError catch (e) {
       throw _clientException(e);
     } catch (_) {
-      // TODO(Marcone): Tratar erro no caso de ser um erro diferente do DIO
       rethrow;
     }
   }
@@ -101,7 +98,6 @@ class DioClient implements RestClientAdapter {
     } on DioError catch (e) {
       throw _clientException(e);
     } catch (_) {
-      // TODO(Marcone): Tratar erro no caso de ser um erro diferente do DIO
       rethrow;
     }
   }
@@ -124,7 +120,6 @@ class DioClient implements RestClientAdapter {
     } on DioError catch (e) {
       throw _clientException(e);
     } catch (_) {
-      // TODO(Marcone): Tratar erro no caso de ser um erro diferente do DIO
       rethrow;
     }
   }
@@ -147,7 +142,6 @@ class DioClient implements RestClientAdapter {
     } on DioError catch (e) {
       throw _clientException(e);
     } catch (_) {
-      // TODO(Marcone): Tratar erro no caso de ser um erro diferente do DIO
       rethrow;
     }
   }
